@@ -29,7 +29,7 @@ Subsample | 0.7881
 Column Subsample by Tree | 0.2222
 N Estimators | 589
 
-The best XGBoost model was retrained with the combined training and validation sets and evaluated based on Accuracy, Macro Precision, Macro Recall, Macro F1-Score, and Normalized Confusion Matrices.
+The best XGBoost model was retrained with the combined training and validation sets and evaluated based on Accuracy, Macro Precision, Macro Recall, Macro F1-Score, and Normalized Confusion Matrices
 
 Set | Accuracy | Macro Precision | Macro Recall | Macro F1-Score
 --- | --- | --- | --- | ---
