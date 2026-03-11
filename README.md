@@ -10,7 +10,7 @@ Dataset: Breast Cancer Wisconsin (Diagnostic) Dataset from Kaggle https://www.ka
 
 Dataset was loaded, inspected, and cleaned using Synthetic Minority Oversampling Technique (SMOTE) - Edited Nearest Neighbors (ENN) hybrid resampling to tighten the class distribution
 
-    | Benign Count | Malignant Count
+--- | Benign Count | Malignant Count
 --- | --- | ---
 Original Dataset | 357 | 212
 Resampled Dataset | 314 | 307
