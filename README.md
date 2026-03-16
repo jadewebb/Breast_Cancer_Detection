@@ -8,7 +8,9 @@ Dataset: Breast Cancer Wisconsin (Diagnostic) Dataset from Kaggle https://www.ka
    
    - 30 features comprised of the Mean, Standard Error, and Worst (mean of 3 largest values) of 10 raw features computed for each cell nucleus
 
-Dataset was loaded, inspected, and cleaned using Synthetic Minority Oversampling Technique (SMOTE) - Edited Nearest Neighbors (ENN) hybrid resampling to tighten the class distribution
+Dataset was loaded, inspected, and visualized using feature histograms
+
+Dataset was cleaned using Synthetic Minority Oversampling Technique (SMOTE) - Edited Nearest Neighbors (ENN) hybrid resampling to tighten the class distribution
 
 Dataset | Benign Count | Malignant Count
 --- | --- | ---
