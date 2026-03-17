@@ -2,7 +2,9 @@
 
 XGBoost trained to classify breast mass cell nuclei as benign or malignant
 
-Dataset: Breast Cancer Wisconsin (Diagnostic) Dataset from Kaggle https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
+## Dataset
+
+Breast Cancer Wisconsin (Diagnostic) Dataset from Kaggle https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
 
    - 569 samples of breast mass cell nuclei features computed from a digitized image of a Fine Needle Aspirate (FNA)
    
@@ -10,16 +12,18 @@ Dataset: Breast Cancer Wisconsin (Diagnostic) Dataset from Kaggle https://www.ka
 
 Dataset was loaded, inspected, and visualized using feature histograms
 
-Dataset was cleaned using Synthetic Minority Oversampling Technique (SMOTE) - Edited Nearest Neighbors (ENN) hybrid resampling to tighten the class distribution
+Dataset was cleaned using **Synthetic Minority Oversampling Technique (SMOTE) - Edited Nearest Neighbors (ENN)** hybrid resampling to tighten the class distribution
 
 Dataset | Benign Count | Malignant Count
 --- | --- | ---
 Original Dataset | 357 | 212
 Resampled Dataset | 314 | 307
 
+## XGBoost Model
+
 Dataset was shuffled and stratified split into training, validation, and testing sets (60:20:20)
 
-An Optuna study was created to optimize XGBoost hyperparameters based on a binary logistic regression learning objective. Pruning and early stopping callbacks were implemented based on validation logistic loss. Visualizations were created for hyperparameter importances and optimization history
+An **Optuna study** was created to optimize XGBoost hyperparameters based on a binary logistic regression learning objective. **Pruning** and **early stopping** callbacks were implemented based on validation logistic loss. Visualizations were created for hyperparameter importances and optimization history
 
 Parameter | Optimal Value
 --- | ---
