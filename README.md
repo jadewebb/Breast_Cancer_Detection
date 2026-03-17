@@ -23,7 +23,9 @@ Resampled Dataset | 314 | 307
 
 Dataset was shuffled and stratified split into training, validation, and testing sets (60:20:20)
 
-An **Optuna study** was created to optimize XGBoost hyperparameters based on a binary logistic regression learning objective. **Pruning** and **early stopping** callbacks were implemented based on validation logistic loss. Visualizations were created for hyperparameter importances and optimization history
+An **Optuna study** was created to optimize XGBoost hyperparameters based on a binary logistic regression learning objective
+
+**Pruning** and **early stopping** callbacks were implemented based on validation logistic loss. Visualizations were created for hyperparameter importances and optimization history
 
 Parameter | Optimal Value
 --- | ---
