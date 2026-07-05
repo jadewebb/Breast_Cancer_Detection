@@ -4,7 +4,7 @@ XGBoost trained to classify breast mass cell nuclei as benign or malignant
 
 ## Dataset
 
-Breast Cancer Wisconsin (Diagnostic) Dataset from Kaggle https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
+**Breast Cancer Wisconsin (Diagnostic) Dataset** from Kaggle https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
 
    - 569 samples of breast mass cell nuclei features computed from a digitized image of a Fine Needle Aspirate (FNA)
    
